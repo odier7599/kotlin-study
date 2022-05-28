@@ -8,18 +8,31 @@
         android:id="@+id/bt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="变量和函数" />
+        android:text="创建类"/>
 
     <Button
         android:id="@+id/bt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="逻辑控制" />
+        android:text="构造器"/>
 
     <Button
         android:id="@+id/bt3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="类与对象" />
+        android:text="接口"/>
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据类"/>
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单例类"/>
+
 
 </LinearLayout>
