@@ -8,12 +8,7 @@
         android:id="@+id/bt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="变量和函数" />
-
-    <Button
-        android:id="@+id/bt2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="逻辑控制" />
+        android:text="顶层函数调用"
+        />
 
 </LinearLayout>

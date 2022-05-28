@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_Study">
         <activity
+            android:name=".logical_control.LogicalControlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".variables_and_functions.VariablesAndFunctionsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
