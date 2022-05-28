@@ -28,27 +28,22 @@ class MainActivity : AppCompatActivity() {
         initOnClick()
     }
 
-    object SingeTo {
-
-
-    }
-
     /**
      * 设置监听
      */
     fun initOnClick() {
         binding.bt1.setOnClickListener {
-            Log.d(TAG, "bt1 OnClick")
+            Log.d(TAG, "bt1 OnClick   变量 函数")
             val intent = Intent(this, VariablesAndFunctionsActivity::class.java)
             startActivity(intent)
         }
         binding.bt2.setOnClickListener {
-            Log.d(TAG, "bt2 OnClick")
+            Log.d(TAG, "bt2 OnClick  fi when while")
             val intent = Intent(this, LogicalControlActivity::class.java)
             startActivity(intent)
         }
         binding.bt3.setOnClickListener {
-            Log.d(TAG, "bt3 OnClick")
+            Log.d(TAG, "bt3 OnClick  面向对象")
             val intent = Intent(this, ClassObjectActivity::class.java)
             startActivity(intent)
         }
