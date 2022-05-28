@@ -8,6 +8,7 @@ import com.yu.kotlin_study.classObject.ClassObjectActivity
 import com.yu.kotlin_study.databinding.ActivityMainBinding
 import com.yu.kotlin_study.lambda.LambdaActivity
 import com.yu.kotlin_study.logical_control.LogicalControlActivity
+import com.yu.kotlin_study.nullPointer.NullPointerActivity
 import com.yu.kotlin_study.util.joinToStr
 import com.yu.kotlin_study.variables_and_functions.VariablesAndFunctionsActivity
 
@@ -54,6 +55,12 @@ class MainActivity : AppCompatActivity() {
         binding.bt4.setOnClickListener {
             Log.d(TAG, "bt4 OnClick  Lambda")
             val intent = Intent(this, LambdaActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt5.setOnClickListener {
+            Log.d(TAG, "bt4 OnClick  Null pointer")
+            val intent = Intent(this, NullPointerActivity::class.java)
             startActivity(intent)
         }
     }

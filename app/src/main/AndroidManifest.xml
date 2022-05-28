@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_Study">
         <activity
+            android:name=".nullPointer.NullPointerActivity"
+            android:exported="false" />
+        <activity
             android:name=".lambda.LambdaActivity"
             android:exported="false" />
         <activity
