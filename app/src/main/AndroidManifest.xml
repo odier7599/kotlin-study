@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_Study">
         <activity
+            android:name=".lazy.LazyActivity"
+            android:exported="false" />
+        <activity
             android:name=".staticFun.StaticActivit"
             android:exported="false" />
         <activity
