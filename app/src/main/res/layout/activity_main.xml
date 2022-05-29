@@ -38,6 +38,12 @@
         android:id="@+id/bt6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="标准函数和静态方法" />
+        android:text="标准函数" />
+
+    <Button
+        android:id="@+id/bt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="静态方法" />
 
 </LinearLayout>

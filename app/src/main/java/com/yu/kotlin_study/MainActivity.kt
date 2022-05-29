@@ -10,6 +10,7 @@ import com.yu.kotlin_study.function.FunctionActivity
 import com.yu.kotlin_study.lambda.LambdaActivity
 import com.yu.kotlin_study.logical_control.LogicalControlActivity
 import com.yu.kotlin_study.nullPointer.NullPointerActivity
+import com.yu.kotlin_study.staticFun.StaticActivity
 import com.yu.kotlin_study.util.joinToStr
 import com.yu.kotlin_study.variables_and_functions.VariablesAndFunctionsActivity
 
@@ -67,6 +68,11 @@ class MainActivity : AppCompatActivity() {
         binding.bt6.setOnClickListener {
             Log.d(TAG, "bt6 OnClick  标准函数和静态方法")
             val intent = Intent(this, FunctionActivity::class.java)
+            startActivity(intent)
+        }
+        binding.bt7.setOnClickListener {
+            Log.d(TAG, "bt7 OnClick  静态方法")
+            val intent = Intent(this, StaticActivity::class.java)
             startActivity(intent)
         }
     }
