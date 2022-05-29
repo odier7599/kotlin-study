@@ -50,5 +50,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="延迟初始化" />
+    <Button
+        android:id="@+id/bt9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密封类" />
 
 </LinearLayout>

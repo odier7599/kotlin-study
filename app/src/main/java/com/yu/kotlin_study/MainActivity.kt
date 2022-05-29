@@ -11,6 +11,7 @@ import com.yu.kotlin_study.lambda.LambdaActivity
 import com.yu.kotlin_study.lazy.LazyActivity
 import com.yu.kotlin_study.logical_control.LogicalControlActivity
 import com.yu.kotlin_study.nullPointer.NullPointerActivity
+import com.yu.kotlin_study.sealedClass.SealedActivity
 import com.yu.kotlin_study.staticFun.StaticActivity
 import com.yu.kotlin_study.util.joinToStr
 import com.yu.kotlin_study.variables_and_functions.VariablesAndFunctionsActivity
@@ -82,6 +83,12 @@ class MainActivity : AppCompatActivity() {
         binding.bt8.setOnClickListener {
             Log.d(TAG, "bt8 OnClick  延迟初始化")
             val intent = Intent(this, LazyActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt9.setOnClickListener {
+            Log.d(TAG, "bt9 OnClick  密封类")
+            val intent = Intent(this, SealedActivity::class.java)
             startActivity(intent)
         }
     }
