@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import com.yu.kotlin_study.classObject.ClassObjectActivity
 import com.yu.kotlin_study.databinding.ActivityMainBinding
+import com.yu.kotlin_study.function.FunctionActivity
 import com.yu.kotlin_study.lambda.LambdaActivity
 import com.yu.kotlin_study.logical_control.LogicalControlActivity
 import com.yu.kotlin_study.nullPointer.NullPointerActivity
@@ -59,8 +60,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.bt5.setOnClickListener {
-            Log.d(TAG, "bt4 OnClick  Null pointer")
+            Log.d(TAG, "bt5 OnClick  Null pointer")
             val intent = Intent(this, NullPointerActivity::class.java)
+            startActivity(intent)
+        }
+        binding.bt6.setOnClickListener {
+            Log.d(TAG, "bt6 OnClick  标准函数和静态方法")
+            val intent = Intent(this, FunctionActivity::class.java)
             startActivity(intent)
         }
     }

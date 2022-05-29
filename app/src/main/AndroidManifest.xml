@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_Study">
         <activity
+            android:name=".function.FunctionActivity"
+            android:exported="false" />
+        <activity
             android:name=".nullPointer.NullPointerActivity"
             android:exported="false" />
         <activity
